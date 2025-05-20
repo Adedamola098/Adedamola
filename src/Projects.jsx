@@ -6,7 +6,7 @@ const projectData = [
     title: "Bakerz — Bakery Store",
     description:
       "A bakery-themed e-commerce site with product filtering, cart system, special offers, and responsive UI. Built using React, TailwindCSS, and localStorage.",
-    imageUrl: "/assets/Screenshot_22-4-2025_131253_bakerz-ten.vercel.app.jpeg", // Replace with actual image paths
+    imageUrl: "/assets/Screenshot_22-4-2025_131253_bakerz-ten.vercel.app.jpeg", 
     link: "https://bakerz.netlify.app"
   },
   {
@@ -15,18 +15,24 @@ const projectData = [
       "A responsive hospital website featuring department listings, doctor profiles, appointment booking, and contact forms. Built for accessibility and ease of use.",
     imageUrl: "/assets/Screenshot_22-4-2025_143146_localhost.jpeg", // Make sure this image exists in your public/images folder
     link: "https://house-pi-gray.vercel.app"
-  }
+  },
+  {
+  "title": "BSquare Gaming Venture",
+  "description": "A responsive gaming platform showcasing curated game collections and interactive features. Built with React and Tailwind CSS for seamless navigation and accessibility, curated by dml.dev.",
+  "imageUrl": "/assets/Screenshot_21-5-2025_0131_bsquare-gaming-venture.netlify.app.jpeg",
+  "link": "https://bsquare-gaming-venture.netlify.app/"
+}
   
   
 ];
-
+                       
 const Projects = () => {
   return (
     <Element name="projects" className="bg-white dark:bg-[#1f1f1f] text-black dark:text-white py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-extrabold text-blue-500 fontss mb-12">My Projects</h2>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-16">
-          A showcase of real-world applications I've built — from e-commerce to UI/UX case studies.
+          A showcase of real-world ap plications I've built — from e-commerce to UI/UX case studies.
         </p>
 
         <div className="space-y-20">

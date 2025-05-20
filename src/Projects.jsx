@@ -17,10 +17,10 @@ const projectData = [
     link: "https://house-pi-gray.vercel.app"
   },
   {
-  "title": "BSquare Gaming Venture",
-  "description": "A responsive gaming platform showcasing curated game collections and interactive features. Built with React and Tailwind CSS for seamless navigation and accessibility, curated by dml.dev.",
-  "imageUrl": "/assets/Screenshot_21-5-2025_0131_bsquare-gaming-venture.netlify.app.jpeg",
-  "link": "https://bsquare-gaming-venture.netlify.app/"
+  title: "BSquare Gaming Venture",
+  description: "A responsive gaming platform showcasing curated game collections and interactive features. Built with React and Tailwind CSS for seamless navigation and accessibility, curated by dml.dev.",
+  imageUrl: "/assets/Screenshot_21-5-2025_0131_bsquare-gaming-venture.netlify.app.jpeg",
+  link: "https://bsquare-gaming-venture.netlify.app/"
 }
   
   

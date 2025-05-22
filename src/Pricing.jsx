@@ -5,7 +5,7 @@ import HireMe from './Hireme';
 const pricingOptions = [
   {
     title: "WEB DESIGN",
-    price: "$300",
+    price: "$10 per hour",
     details: [
       "1 Initial Concepts",
       "Layered PSD",
@@ -15,7 +15,7 @@ const pricingOptions = [
   },
   {
     title: "WEB DEV",
-    price: "$350",
+    price: "$15 per hours",
     details: [
       "2 Pages",
       "3 Revisions",
@@ -25,7 +25,7 @@ const pricingOptions = [
   },
   {
     title: "UI/UX DESIGN",
-    price: "$30",
+    price: "$10 per hour",
     details: [
       "1 Initial Concepts",
       "Layered PSD",
@@ -35,7 +35,7 @@ const pricingOptions = [
   },
   {
     title: "LOGO DESIGN",
-    price: "$5",
+    price: "$5 per hour",
     details: [
       "2 Concepts",
       "3 Revisions",

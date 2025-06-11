@@ -7,10 +7,8 @@ const About = () => {
     <Element name="about">
       <div className="flex flex-col lg:flex-row bg-white dark:bg-[#1f1f1f] text-black dark:text-white">
         
-        {/* Left: About Description + Image */}
         <div className="px-6 md:px-20 py-16 w-full lg:w-1/2">
           <div className="max-w-3xl mx-auto text-center lg:text-left">
-            {/* NEW: Profile Image */}
             <img
               src="/assets/Snapchat-649279938.jpg"
               alt="Profile"
@@ -34,7 +32,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Right: Skills Progress Bars */}
         <div className="px-6 md:px-20 py-16 w-full lg:w-1/2 bg-gray-100 dark:bg-[#2c2c2c]">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl text-blue-500 font-bold mb-6 text-center lg:text-left">
@@ -54,8 +51,8 @@ const About = () => {
             ].map((skill, i) => (
               <div key={i} className="mb-6">
                 <div className="flex justify-between mb-1">
-                  <span className="font-semibold text-white">{skill.label}</span>
-                  <span className="font-medium text-white">{skill.percent}%</span>
+                  <span className="font-semibold text-gray-900">{skill.label}</span>
+                  <span className="font-medium text-gray-900">{skill.percent}%</span>
                 </div>
                 <div className="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-3">
                   <div

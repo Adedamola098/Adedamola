@@ -51,8 +51,8 @@ const About = () => {
             ].map((skill, i) => (
               <div key={i} className="mb-6">
                 <div className="flex justify-between mb-1">
-                  <span className="font-semibold text-gray-900">{skill.label}</span>
-                  <span className="font-medium text-gray-900">{skill.percent}%</span>
+                  <span className="font-semibold text-gray-100 dark:gray-700">{skill.label}</span>
+                  <span className="font-medium text-gray-100 dark:bg-gray-700">{skill.percent}%</span>
                 </div>
                 <div className="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-3">
                   <div

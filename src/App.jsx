@@ -7,7 +7,7 @@ import Projects from './Projects';
 import Pricing from './Pricing';
 import Contact from './Contact';
 import Footer from './Footer';
-import HireMe from './HireMe'; 
+import HireMe from './Hireme'; 
 
 const App = () => {
   const [isHireMeOpen, setIsHireMeOpen] = useState(false);

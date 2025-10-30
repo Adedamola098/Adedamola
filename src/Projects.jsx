@@ -2,26 +2,53 @@ import React from 'react';
 import { Element } from 'react-scroll';
 
 const projectData = [
+const projects = [
   {
     title: "Bakerz — Bakery Store",
     description:
       "A bakery-themed e-commerce site with product filtering, cart system, special offers, and responsive UI. Built using React, TailwindCSS, and localStorage.",
-    imageUrl: "/assets/Screenshot_22-4-2025_131253_bakerz-ten.vercel.app.jpeg", 
+    imageUrl: "/assets/Screenshot_22-4-2025_131253_bakerz-ten.vercel.app.jpeg",
     link: "https://bakerz.netlify.app"
   },
   {
     title: "MediPlus — Hospital Website",
     description:
       "A responsive hospital website featuring department listings, doctor profiles, appointment booking, and contact forms. Built for accessibility and ease of use.",
-    imageUrl: "/assets/Screenshot_22-4-2025_143146_localhost.jpeg", // Make sure this image exists in your public/images folder
+    imageUrl: "/assets/Screenshot_22-4-2025_143146_localhost.jpeg",
     link: "https://house-pi-gray.vercel.app"
   },
   {
-  title: "BSquare Gaming Venture",
-  description: "A responsive gaming platform showcasing curated game collections and interactive features. Built with React and Tailwind CSS for seamless navigation and accessibility, curated by dml.dev.",
-  imageUrl: "/assets/Screenshot_21-5-2025_0131_bsquare-gaming-venture.netlify.app.jpeg",
-  link: "https://bsquare-gaming-venture.netlify.app/"
-}
+    title: "BSquare Gaming Venture",
+    description:
+      "A responsive gaming platform showcasing curated game collections and interactive features. Built with React and Tailwind CSS for seamless navigation and accessibility, curated by DML.DEV.",
+    imageUrl: "/assets/Screenshot_21-5-2025_0131_bsquare-gaming-venture.netlify.app.jpeg",
+    link: "https://bsquare-gaming-venture.netlify.app/"
+  },
+  {
+    title: "Temidire Baptist Church",
+    description:
+      "A modern, responsive church website with service schedules, ministries, events, online donations, and contact sections. Built with React and Tailwind CSS for the ChristLight Baptist community.",
+    imageUrl: "https://temidire-baptist-church.vercel.app/Youth.jpg", 
+    link: "https://temidire-baptist-church.vercel.app/"
+  },
+  {
+    title: "Troll Trump — Meme Token Website",
+    description:
+      "A crypto-themed meme website showcasing the $TRUMP token, built with React and Tailwind CSS. Features animated sections, Solana-style gradient design, and a futuristic UI.",
+    imageUrl: "https://troll-trump-meme-ui.vercel.app/meme-ui.jpg", 
+    link: "https://troll-trump-meme-ui.vercel.app/"
+  },
+  {
+    title: "FurShield — Pet Care Brand",
+    description:
+      "A clean, modern landing page for a pet care and grooming brand. Includes product highlights, testimonials, and a responsive layout using React and Tailwind CSS.",
+    imageUrl: "https://furshield-a3bc.onrender.com/static/assets/about.jpg", 
+    link: "https://furshield-a3bc.onrender.com/"
+  }
+];
+
+export default projects;
+
   
   
 ];

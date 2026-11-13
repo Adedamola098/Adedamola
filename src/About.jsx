@@ -10,7 +10,7 @@ const About = () => {
         <div className="px-6 md:px-20 py-16 w-full lg:w-1/2">
           <div className="max-w-3xl mx-auto text-center lg:text-left">
             <img
-              src="https://x.com/damoscofcb/status/2121214264543228273?a=MbnYIKma2rfiI0SxDeQ&s=20"
+              src="/assets/official-picture.jpg"
               alt="Profile"
               className="w-40 h-44 md:w-56 md:h-56 rounded-full object-cover mx-auto lg:mx-0 mb-8"
             />

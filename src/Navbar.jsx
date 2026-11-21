@@ -36,7 +36,7 @@ const Navbar = () => {
           {/* Profile Info */}
           <div className="flex items-center gap-4">
             <img
-              src="/assets/Snapchat-649279938.jpg"
+              src="/assets/official-picture.jpg"
               alt="Profile"
               className="rounded-full w-14 h-14 object-cover"
             />
